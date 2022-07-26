@@ -38,7 +38,7 @@ def registerUser(request):
 
             return redirect('login')
         else:
-            print(request, 'An error occurred during registration')
+            print(request, 'Messange: An error occurred during registration')
 
     return render(request, 'register.html', {'form': form})
 
